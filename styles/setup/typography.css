@@ -1,7 +1,6 @@
 @font-face {
     font-family: eurofurence;
-    src: url("/fonts/eurofurence/eurofurence-regular/eurof55.ttf");
-    /* src: url(/fonts/eurofurence/eurof55.ttf); */
+    src: url(/fonts/eurofurence/eurof55.ttf);
 }
 
 @font-face {
