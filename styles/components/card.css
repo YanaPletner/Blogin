@@ -1,0 +1,50 @@
+.card {
+    margin-block-start: 80px;
+    padding-inline-end: 1em;
+}
+
+.card:last-of-type {
+    margin-block-end: 80px;
+}
+
+.card img {
+    transition: 1s;
+
+}
+
+.card h2 {
+    font-size: 28px;
+    font-family: lato-bold;
+    text-transform: uppercase;
+    color: var(--lighter-grey);
+    transition: 1s;
+
+}
+
+.card p {
+    margin: 0;
+    margin-inline-end: 1em;
+    color: #6C6C6C;
+    font-family: lato-regular;
+}
+
+.main-card-nav {
+    font-family: lato-bold;
+    max-width: 11.25em;
+    height: 43px;
+    align-self: self-end;
+    border: 2px solid var(--grey);
+    border-radius: 20px;
+}
+
+.main-card-nav:hover {
+    max-width: 13.3125em;
+    color: var(--green);
+    border-color: var(--green);
+    cursor: pointer;
+}
+
+.main-card-nav:hover .arrow {
+    margin-inline-start: 1em;
+    display: block;
+}

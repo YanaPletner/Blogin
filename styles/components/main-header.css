@@ -1,0 +1,89 @@
+.main-header {
+    position: relative;
+    height: 132px;
+    background-color: var(--dark-grey);
+}
+
+
+.main-header:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(32, 32, 32);
+}
+
+.main-header .logo {
+    width: 85px;
+    height: 34px;
+}
+
+.main-header .main-nav-list {
+    margin: 0;
+    padding: 0;
+}
+
+.main-header li {
+    margin: 0;
+    position: relative;
+    border-inline-end: 1px solid rgb(32, 32, 32);
+    text-align: center;
+    cursor: pointer;
+}
+
+.main-header li:nth-child(1),
+.main-header li:nth-child(4) {
+    width: 140px;
+    height: 132px;
+}
+
+.main-header li:nth-child(2),
+.main-header li:nth-child(3) {
+    width: 138px;
+    height: 132px;
+}
+
+
+.main-header li:nth-child(1) {
+    border-inline-start: 1px solid rgb(32, 32, 32);
+}
+
+.main-header li:hover::after {
+    position: absolute;
+    content: "";
+    height: 5px;
+    width: 100%;
+    bottom: 0;
+    background-color: var(--green);
+    z-index: 2;
+}
+
+.main-header li a {
+    color: var(--white);
+    text-decoration: none;
+    font-family: lato-bold;
+    letter-spacing: 1px;
+}
+
+.main-header li:hover a {
+    color: var(--green);
+}
+
+.toggle-menu-btn {
+    display: none;
+    grid-column: 4/5;
+    place-self: center end;
+
+    font-size: 2rem;
+    width: 40px;
+    height: 40px;
+    margin-inline-end: 2rem;
+
+    border: 0;
+    color: aliceblue;
+    background-color: Transparent;
+
+    cursor: pointer;
+}

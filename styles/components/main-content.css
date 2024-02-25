@@ -1,0 +1,5 @@
+.main-content {
+    margin-inline: auto;
+    max-width: 983px;
+    border-inline: 1px solid var(--grey);
+}

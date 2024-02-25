@@ -1,0 +1,44 @@
+.margin {
+    margin-inline: 16.125em;
+
+}
+
+.flex {
+    display: flex;
+}
+
+.flex.space-between {
+    justify-content: space-between;
+}
+
+.flex.justify-center {
+    justify-content: center;
+}
+
+.flex.align-center {
+    align-items: center;
+}
+
+.flex.direction-columns {
+    flex-direction: column;
+}
+
+
+.clean-list {
+    list-style-type: none;
+}
+
+.logo {
+    font-family: eurofurence;
+    font-size: 2.5em;
+    color: var(--white);
+}
+
+.logo-black {
+    color: #000000;
+    font-size: 40px;
+}
+
+.green-dot {
+    color: var(--green)
+}

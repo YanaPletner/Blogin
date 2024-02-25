@@ -1,0 +1,18 @@
+.main-section {
+    max-width: 983px;
+    margin-inline: auto;
+    height: 4em;
+    border-block-start: 1px solid var(--grey);
+    border-inline: 1px solid var(--grey);
+
+    padding-inline: 1em;
+    text-transform: uppercase;
+    font-family: lato-bold;
+    color: #818181;
+}
+
+.main-section .previous,
+.main-section .next {
+    width: fit-content;
+    cursor: pointer;
+}

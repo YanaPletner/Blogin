@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+h2 {
+    margin: 0;
+    height: fit-content;
+
+}
+
+.hidden {
+    display: none;
+}
